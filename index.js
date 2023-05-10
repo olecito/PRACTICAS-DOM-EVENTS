@@ -32,3 +32,14 @@ function cafetera(ingrediente1, ingrediente2) {
 
 let tasa = cafetera('leche');
 console.log(tasa);
+
+let readMore = document.getElementById('read-more');
+let moreInfo = document.getElementById('more-info');
+
+// Write your code here:
+
+function showInfo() {
+  moreInfo.style.display = 'block';
+} 
+
+readMore.addEventListener('click', showInfo);
